@@ -13,8 +13,8 @@ import numpy as np
 
 import ChatTTS
 
-from tools.audio import pcm_arr_to_mp3_view
-from tools.logger import get_logger
+from ChatTTS.tools.audio import pcm_arr_to_mp3_view
+from ChatTTS.tools.logger import get_logger
 
 logger = get_logger("Command")
 
